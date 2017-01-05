@@ -1,0 +1,6 @@
+---
+# tasks file for helloworld
+- name: Apply template
+  template:
+    src: hello.j2
+    dest: /tmp/hello.txt
